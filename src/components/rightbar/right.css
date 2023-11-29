@@ -1,0 +1,15 @@
+.rightBar {
+    width: 5%;
+    height: 100vh;
+    background-color: rgb(47, 48, 48);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rightBarLogo {
+    font-size: 30px;
+    margin-top: 30px;
+    color: white;
+    cursor: pointer;
+}

@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Dashboard from "./components/dashboard/Dashboard";
+import Domain from './components/domain/Domain';
+import Subscription from './components/subscription/Subscription';
+import Report from './components/report/Report';
+import Suspance from './components/suspance/Suspance';
+import Settings from './components/setting/Settings';
+import MailAgent from './components/mailAgent/MailAgent';
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Dashboard />} />
+          <Route path='/mail_agent' element={<MailAgent />} />
+          <Route path='/domain' element={<Domain />} />
+          <Route path='/report' element={<Report />} />
+          <Route path='/subscription' element={<Subscription />} />
+          <Route path='/suspension_list' element={<Suspance />} />
+          <Route path='/settings' element={<Settings />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

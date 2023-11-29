@@ -1,0 +1,186 @@
+.MailAgent {
+    width: 100%;
+    position: relative;
+}
+
+.mailagentHeading {
+    width: 90%;
+    margin: 20px 5%;
+}
+
+.mailagentHeading>.heading {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.mailAgentNav {
+    display: flex;
+    width: 90%;
+    margin: 0px 5%;
+}
+
+.navItem {
+    margin-right: 20px;
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 2px solid transparent;
+}
+
+.navItem.active {
+    color: #007bff;
+    border-bottom-color: #007bff;
+}
+
+.overview {
+    width: 90%;
+    margin: 20px 5%;
+}
+
+.template {
+    width: 90%;
+    margin: 20px 5%;
+}
+
+.Emptytemplate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Emptytemplate>img {
+    width: 20%;
+    height: 20%;
+}
+
+.message {
+    font-weight: 500;
+    margin: 20px;
+}
+
+.Emptytemplate>button {
+    padding: 10px 30px;
+    color: #007bff;
+    font-weight: 500;
+    background-color: rgb(227, 224, 224);
+    border-radius: 10px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.heading>button {
+    background-color: rgb(227, 224, 224);
+    border: none;
+    cursor: pointer;
+}
+
+.popup {
+    width: 80%;
+    height: 80vh;
+    position: absolute;
+    background-color: white;
+    top: 25vh;
+    left: 10%;
+    border-radius: 10px;
+}
+
+.emailDetail {
+    font-size: 20px;
+    font-family: 500;
+}
+
+.deleteEmil {
+    color: red;
+    cursor: pointer;
+}
+
+.popupTitle {
+    width: 90%;
+    margin: 10px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.deleteemail {
+    padding: 5px;
+    border-radius: 50%;
+    background-color: rgb(227, 224, 224);
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.popupContent {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.popupContentLeft {
+    width: 30%;
+    height: 200px;
+}
+
+.popupContentRight {
+    width: 65%;
+    height: 200px;
+}
+
+.popupContentLeftItem {
+    padding: 10px;
+}
+
+.itemName {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.itemData {
+    width: 90%;
+    margin: 0 5%;
+    padding: 5px;
+    background-color: rgb(227, 224, 224);
+    border-radius: 5px;
+}
+
+.statusDetail {
+    width: 100%;
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.allEmail {
+    width: 100%;
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.allEmailTitle {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(227, 224, 224);
+    padding: 5px 0;
+    border-radius: 5px;
+}
+
+.allEmailTitle>div {
+    width: 30%;
+}
+
+.Emaildetail {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 0;
+    border-radius: 5px;
+}
+
+.Emaildetail>div {
+    width: 30%;
+}
